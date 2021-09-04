@@ -1,6 +1,9 @@
 # tailscale-dns-sync
 Sync tailscale hosts to public dns domain.
 
+问题：Tailscale的API Key 有90天的有效期，过期后需要人工修改。
+
+替代方案：目前Tailscale的Magic DNS支持不覆盖Local DNS，所以可以使用 Magic DNS功能。
 
 ## Develop
 
